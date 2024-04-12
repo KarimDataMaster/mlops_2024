@@ -1,0 +1,47 @@
+[[package]]
+name = "pandas"
+version = "2.2.2"
+description = "Pandas package"
+category = "prod"
+optional = false
+python-versions = ">=3.11"
+
+[[package]]
+name = "scikit-learn"
+version = "1.4.2"
+description = "scikit-learn package"
+category = "prod"
+optional = false
+python-versions = ">=3.11"
+
+[[package]]
+name = "catboost"
+version = "1.2.3"
+description = "catboost package"
+category = "prod"
+optional = false
+python-versions = ">=3.11"
+
+[[package]]
+name = "pytest"
+version = "8.1.1"
+description = "pytest package"
+category = "test"
+optional = true
+python-versions = ">=3.11"
+
+[[package]]
+name = "pre-commit"
+version = "3.7.0"
+description = "pre-commit package"
+category = "dev"
+optional = true
+python-versions = ">=3.11"
+
+[[package]]
+name = "ruff"
+version = "0.3.4"
+description = "ruff package"
+category = "dev"
+optional = true
+python-versions = ">=3.11"

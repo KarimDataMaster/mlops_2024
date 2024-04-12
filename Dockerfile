@@ -1,12 +1,3 @@
-# mlops_2024
-Трек MLOps и production в DS в исследованиях 3.0 от ODS.ai
-
-- Ветка main для кода production
-- Ветка dev для препрода
-- Каждый участник проекта создает для собственных эксперипентов отдельную ветку. Положительный результат пушит в препрод.
-
-# Настройка DOCKER для ML проектов
-'''
 # образ с python dockerhub
 FROM python:3.11-slim as python-base
 
@@ -46,9 +37,3 @@ COPY ./app/app.py ./
 # ENTRYPOINT ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root"]
 # ENTRYPOINT ["python", "app.py"]
 # CMD [ "poetry", "run", "python", "-c", "print('Hello, World!')" ]
-'''
-
-# запуск контейнера и вход в bash терминал
-'''
-docker run --rm -it --entrypoint bash test1
-'''
