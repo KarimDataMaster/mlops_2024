@@ -52,3 +52,12 @@ COPY ./app/app.py ./
 ```
 docker run --rm -it --entrypoint bash test1
 ```
+# активировать виртуальное окружение
+```
+source $(poetry env info --path)/bin/activate
+```
+
+# запустить python проверить установленные пакеты
+```
+python
+```
